@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Алиса Макарова</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  	
+  <style>
+    @import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+
+    body {
+      margin: 0;
+      box-sizing: border-box;
+    }
+
+    .container {
+      line-height: 150%;
+    }
+
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px;
+      background-color: #e9e9e9;
+    }
+
+    .header h1 {
+      color: #222222;
+      font-size: 30px;
+      font-family: "Pacifico", cursive;
+    }
+
+    .header .social a {
+      padding: 0 5px;
+      color: #222222;
+    }
+
+    .left {
+      float: left;
+      width: 250px;
+      margin: 0;
+      padding: 1em;
+    }
+
+    .content {
+      margin-left: 190px;
+      border-left: 1px solid #d4d4d4;
+      padding: 1em;
+      overflow: hidden;
+    }
+
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      font-family: sans-serif;
+    }
+
+    li a {
+      display: block;
+      color: #000;
+      padding: 8px 16px;
+      text-decoration: none;
+    }
+
+    li a.active {
+      background-color: #84e4e2;
+      color: white;
+    }
+
+    li a:hover:not(.active) {
+      background-color: #29292a;
+      color: white;
+    }
+
+    table {
+      font-family: arial, sans-serif;
+      border-collapse: collapse;
+      width: 100%;
+      margin: 30px 0;
+    }
+
+    td,
+    th {
+      border: 1px solid #dddddd;
+      padding: 8px;
+    }
+
+    tr:nth-child(1) {
+      background-color: #84e4e2;
+      color: white;
+    }
+
+    tr td i.fas {
+      display: block;
+      font-size: 35px;
+      text-align: center;
+    }
+
+    .footer {
+      padding: 55px 20px;
+      background-color: #2e3550;
+      color: white;
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <header class="header">
+			<nav id="mainNav" class="navbar navbar-default navbar-fixed-top navbar-custom">
+			<div class="container"> 
+				<nav class="collapse navbar-collapse" id="bs-navbar"> 
+					<ul class="nav navbar-nav navbar-right"> 
+						<li> <a class="buttons" href="https://ling.hse.ru/">Школа лингвистики НИУ ВШЭ</a> </li> 
+						<li> <a class="buttons" href="https://lingvocodes.github.io/HSEinfo/ba-ling-2021/index.html">Страница курса</a> </li> 
+						<li> <a class="buttons" href="https://lingvocodes.github.io/HSEinfo/ba-ling-2021/latin_2.html">Страница группы</a> </li> 
+					</ul>
+					
+				</nav> 
+			</div>
+		</nav>
+      <h1>Алиса Макарова</h1>
+	  <p><em>
+	        Мои социальные сети(иконки кликабельны):
+        <a href="https://t.me/akaalissa"><i class="fab fa-telegram"></i></a>
+        <a href="https://www.instagram.com/maalissa__?igsh=c2tpN21iNjVoNmZm"><i class="fab fa-instagram"></i></a>
+        <a href="https://vk.com/akaalma"><i class="fab fa-vk"></i></a>
+		</em></p>
+      </div>
+    </header>
+    <aside class="left">
+      <img src="https://github.com/akaalissa2/lingdata/blob/main/mywebpage/myphoto.jpg?raw=true" width="250px" />
+      <ul>
+        <li><a class="active" href="#home">Home</a></li>
+      </ul>
+      <br><br>
+      <p>"Время не любит, когда его тратят впустую."<br>- Генри Форд</p>
+    </aside>
+    <main class="content">
+	<p><strong>Сообщение для кураторов:</strong> я в опросе случайно отметила сначала свою старую почту, <br/>потом актуальную, простите 	&#128554; Актуальная почта в футере сайта</p>
+      <h2>Обо мне</h2>
+      <p>Я студентка ВШЭ направления "Фундаментальная и компьютерная лингвистика" 1 курса. Люблю рисовать, учусь играть на гитаре</p>
+      <h2>Мои цели</h2>
+      <ol class="rounded">
+  <li><a href="#">Выучить новый иностранный язык</a></li>
+  <li><a href="#">Реализовать навыки на практике</a></li>
+  <li><a href="#">Открыть для себя новые сферы</a></li>
+  <li><a href="#">Найти новые знакомства</a></li>
+  <li><a href="#">Прожить время студенчества наилучшим образом</a></li>
+</ol>
+<style>
+.rounded {
+counter-reset: li; 
+list-style: none; 
+font: 14px "Trebuchet MS", "Lucida Sans";
+padding: 0;
+text-shadow: 0 1px 0 rgba(255,255,255,.5);
+}
+.rounded a {
+position: relative;
+display: block;
+padding: .4em .4em .4em 2em;
+margin: .5em 0;
+background: #DAD2CA;
+color: #444;
+text-decoration: none;
+border-radius: .3em;
+transition: .3s ease-out;
+}
+.rounded a:hover {background: #E9E4E0;}
+.rounded a:hover:before {transform: rotate(360deg);}
+.rounded a:before {
+content: counter(li);
+counter-increment: li;
+position: absolute;
+left: -1.3em;
+top: 50%;
+margin-top: -1.3em;
+background: #84e4e2;
+height: 2em;
+width: 2em;
+line-height: 2em;
+border: .3em solid white;
+text-align: center;
+font-weight: bold;
+border-radius: 2em;
+transition: all .3s ease-out;
+}
+</style>
+      <hr><br>
+      <h2>Что я могу вам рассказать?</h2>
+      <table>
+        <tr>
+          <th>IELTS</th>
+          <th>PhML</th>
+          <th>Sport</th>
+        </tr>
+        <tr>
+          <td><i class="fas fa-book"></i></td>
+          <td><i class="fas fa-chart-bar"></i></td>
+          <td><i class="fas fa-snowboarding"></i></td>
+        </tr>
+        <tr>
+          <td>Я сдала IELTS на С1, но всего на 7.0 баллов :(</td>
+          <td>Закончила Физико-математический лицей, но физику так и не поняла</td>
+          <td>Занималась бадминтоном, бросила год назад, а теперь хочу в сборную Вышки по бадминтону</td>
+        </tr>
+        <tr>
+      </table>
+    </main>
+    <footer class="footer">© Алиса, которая умеет делать сайты HTML на основе шаблонов<br /> makarova4alisa234@gmail.com</footer>
+  </div>
+</body>
+
+</html>
